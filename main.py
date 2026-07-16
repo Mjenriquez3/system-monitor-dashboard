@@ -1,11 +1,18 @@
 import psutil 
-print("Hello, World")
+
+text = "SYSTEM MONITOR DASHBOARD"
+print("="*50)
+print(f"{text: ^50}") # Center-aligned with `-`
+print("="*50)
+print()
+
+
 
 cpu_usage = psutil.cpu_percent(interval=1)
-print("Current CPU usage:", cpu_usage, "%")
+print(f"{'CPU Usage:':<25}{cpu_usage}%")
 
 memory_usage = psutil.virtual_memory().percent
-print("Current Memory usage:", memory_usage, "%")
+print(f"{'Memory Usage:':<25}{memory_usage}%")
 
-disk_spaceTaken = psutil.disk_usage('/').percent
-print("Current Disk usage:", disk_spaceTaken, "%")
+disk_space_taken = psutil.disk_usage('/').percent
+print(f"{'Disk Usage:':<25}{disk_space_taken}%")   
