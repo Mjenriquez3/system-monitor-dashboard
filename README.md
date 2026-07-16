@@ -8,9 +8,9 @@ Essentially a display that showcases the computers real time CPU, memory, disk, 
 - [ ] Display CPU usage
 
 # Goals:
-- [ ] Add CPU usage display
-- [ ] Display Memory usage
-- [ ] display disk usage 
+- [x] Add CPU usage display
+- [x] Display Memory usage
+- [x] display disk usage 
 - [ ] Ensure formatting is clean and organized 
 - [ ] Add process monitoring 
 - [ ] Add color
