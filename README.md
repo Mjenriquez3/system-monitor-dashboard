@@ -5,16 +5,21 @@ Essentially a display that showcases the computers real time CPU, memory, disk, 
 
 ## Planned Features
 
-- [ ] Display CPU usage
+- Display CPU, memory, and disk usage
+- Display CPU level with corresponding status
+- Color coded CPU status
+- Auto Refresh every 2 seconds
+-Using Python, psutil, and colorama
+
 
 # Goals:
 - [x] Add CPU usage display
 - [x] Display Memory usage
 - [x] display disk usage 
-- [ ] Ensure formatting is clean and organized 
-- [ ] Add process monitoring 
-- [ ] Add color
-- [ ] Refresh data in real time
+- [x] Ensure formatting is clean and organized 
+- [x] Add process monitoring 
+- [x] Add color
+- [x] Refresh data in real time
 
 
 
